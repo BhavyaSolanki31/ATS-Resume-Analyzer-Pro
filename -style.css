@@ -1,5 +1,5 @@
 <style>
-body{font-family:Segoe UI,Arial;background:#eef2ff;margin:0;padding:25px}
+body{font-family:Segoe UI,Arial;background:#eef2ff;margin:0;padding:25px} 
 .container{max-width:1200px;margin:auto}
 .card{background:#fff;border-radius:18px;padding:25px;margin-bottom:18px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
 .drop{border:2px dashed #cbd5e1;border-radius:16px;padding:50px;text-align:center;cursor:pointer}

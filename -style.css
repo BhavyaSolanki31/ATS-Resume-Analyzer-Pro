@@ -1,0 +1,16 @@
+<style>
+body{font-family:Segoe UI,Arial;background:#eef2ff;margin:0;padding:25px}
+.container{max-width:1200px;margin:auto}
+.card{background:#fff;border-radius:18px;padding:25px;margin-bottom:18px;box-shadow:0 6px 20px rgba(0,0,0,.08)}
+.drop{border:2px dashed #cbd5e1;border-radius:16px;padding:50px;text-align:center;cursor:pointer}
+.drop.drag{border-color:#4f46e5;background:#eef2ff}
+.btn{background:#4f46e5;color:#fff;border:none;padding:14px 22px;border-radius:10px;cursor:pointer;width:100%;font-size:18px}
+.btn:disabled{opacity:.5}
+.hidden{display:none}
+.score{font-size:70px;font-weight:bold;color:#16a34a}
+.good,.bad{padding:15px;border-radius:12px;margin:10px 0}
+.good{background:#ecfdf5}
+.bad{background:#fef2f2}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.file{display:none;background:#eef2ff;padding:12px;border-radius:10px;margin:10px 0}
+</style>

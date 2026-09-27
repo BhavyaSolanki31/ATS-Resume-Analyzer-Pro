@@ -1,4 +1,4 @@
-<script>
+
 let selectedFile=null;
 
 const drop=document.getElementById('drop');
@@ -138,4 +138,4 @@ document.getElementById('recruiter').innerHTML=`
 <b>Areas to Improve:</b><br>${suggestions.slice(0,5).join('<br>') || 'None'}
 `;
 }
-</script>
+

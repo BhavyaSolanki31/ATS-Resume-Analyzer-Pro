@@ -4,6 +4,9 @@ A browser-based **ATS (Applicant Tracking System) Resume Analyzer** that evaluat
 
 The application allows users to upload **PDF or DOCX resumes** and generates a detailed ATS compatibility report including resume scoring, section validation, formatting analysis, recruiter insights, and improvement suggestions.
 
+🌐 Live Demo:
+https://bhavyasolanki31.github.io/ATS-Resume-Analyzer-Pro/
+
 ---
 
 # Features

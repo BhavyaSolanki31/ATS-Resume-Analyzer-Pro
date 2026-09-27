@@ -2,26 +2,26 @@
 
 A browser-based **ATS (Applicant Tracking System) Resume Analyzer** that evaluates resumes based on common ATS-friendly criteria used in modern recruitment systems.
 
-The application allows users to upload **PDF or DOCX resumes** and generates an ATS compatibility report including resume scoring, section validation, formatting analysis, keyword checks, recruiter insights, and improvement suggestions.
+The application allows users to upload **PDF or DOCX resumes** and generates a detailed ATS compatibility report including resume scoring, section validation, formatting analysis, recruiter insights, and improvement suggestions.
 
 ---
 
 # Features
 
-## Resume Upload
+## Resume Upload & Processing
 
 - Drag & Drop Resume Upload
 - Click-to-Upload Support
 - PDF Resume Support
 - DOCX Resume Support
 - Client-side Resume Processing
-- File Validation
+- File Format Validation
 
 ---
 
 # ATS Scoring System
 
-The analyzer calculates a resume score out of 100 using multiple ATS evaluation parameters.
+The application evaluates resumes using a rule-based ATS scoring algorithm and generates a score out of 100.
 
 Features:
 
@@ -35,33 +35,35 @@ Features:
 
 # Resume Analysis
 
-The system evaluates resumes using rule-based analysis:
+The analyzer checks resumes using multiple ATS-friendly parameters.
 
-### Contact Information
+## Contact Information
 
 - Email Detection
 - Phone Number Validation
 
-### Resume Structure
+## Resume Structure
 
 - Section Header Detection
 - Education Section Check
 - Experience Section Check
 - Skills Section Check
-- Project Section Check
-- Certification Section Check
+- Projects Section Check
+- Certifications Section Check
 
-### Content Evaluation
+## Content Evaluation
 
 - Action Verb Detection
 - Quantifiable Achievement Detection
 - Resume Content Length Analysis
 - Date Detection
+- Online Presence Check (LinkedIn/GitHub)
 
-### ATS Formatting Checks
+## ATS Formatting Checks
 
 - Special Character Detection
-- Single-column Layout Recommendation
+- ATS-Friendly Formatting Evaluation
+- Single Column Layout Recommendation
 - Table/Header/Footer Detection
 
 ---
@@ -81,9 +83,9 @@ The analyzer generates:
 
 ## Frontend
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- **HTML5** → Application structure
+- **CSS3** → User interface styling and responsive design
+- **JavaScript (ES6)** → Resume processing and ATS scoring logic
 
 ## Libraries
 
@@ -103,7 +105,7 @@ The analyzer generates:
 git clone https://github.com/BhavyaSolanki31/ATS-Resume-Analyzer-Pro.git
 ```
 
-## 2. Open Project Folder
+## 2. Navigate to Project Folder
 
 ```bash
 cd ATS-Resume-Analyzer-Pro
@@ -119,7 +121,9 @@ index.html
 
 directly in any modern web browser.
 
-No installation or backend setup is required.
+No installation, backend, or database setup is required.
+
+The project runs completely in the browser using client-side JavaScript.
 
 ---
 
@@ -128,7 +132,10 @@ No installation or backend setup is required.
 ```
 ATS-Resume-Analyzer-Pro
 │
-├── index.html
+├── index.html        # Main application structure
+├── style.css         # UI styling and design
+├── script.js         # Resume analysis and scoring logic
+│
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -140,17 +147,17 @@ ATS-Resume-Analyzer-Pro
 
 ```
 Upload Resume
-       ↓
+        ↓
 Extract Resume Text
-       ↓
+        ↓
 Analyze Resume Content
-       ↓
+        ↓
 Apply ATS Evaluation Rules
-       ↓
-Calculate Score
-       ↓
+        ↓
+Calculate ATS Score
+        ↓
 Generate Recruiter Insights
-       ↓
+        ↓
 Provide Improvement Suggestions
 ```
 
@@ -171,7 +178,7 @@ Provide Improvement Suggestions
 | Resume Length | 10 |
 | Resume Structure | 10 |
 
-The final score is normalized to a scale of 100.
+The final ATS score is normalized to a scale of **100**.
 
 ---
 
@@ -190,7 +197,7 @@ The final score is normalized to a scale of 100.
 
 # Learning Outcomes
 
-This project demonstrates:
+This project demonstrates practical implementation of:
 
 - Frontend Web Development
 - JavaScript File Handling
@@ -214,6 +221,8 @@ https://github.com/BhavyaSolanki31
 
 ---
 
-# 📄 License
+# License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project with proper attribution.
